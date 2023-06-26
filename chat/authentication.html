@@ -1,0 +1,73 @@
+<!--
+\\Author: Thibault Napoléon "Imothep"
+\\Company: ISEN Yncréa Ouest
+\\Email: thibault.napoleon@isen-ouest.yncrea.fr
+\\Created Date: 27-Mar-2023 - 12:02:55
+\\Last Modified: 18-Apr-2023 - 17:26:51
+-->
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Thibault Napoléon">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+
+    <!-- JS Script -->
+    <script src="js/authentication.js" defer></script>
+
+    <!-- Title -->
+    <title>Chat</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Chat en ligne</h1>
+      <nav>
+        <a href="https://www.isen.fr/" target="_blank"> <img src="img/logo.jpg"> </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="authentication.html">Chat</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Authentication -->
+    <section>
+      <h2>Authentification</h2>
+      <form id="authentication-area" action="chat.html">
+        <span id="input-group">
+          <label for="login">Login :</label>
+          <input id="login" name="login" type="text" placeholder="Entrez votre login" required autofocus>
+        </span>
+        <br>
+        <span id="input-group">
+          <label for="password">Mot de passe :</label>
+          <input id="password" name="password" type="password" placeholder="Entrez votre mot de passe" required>
+        </span>
+        <br>
+        <button type="submit">Se connecter</button>
+        <button type="reset">Effacer</button>
+        <input id="stayconnected" type="checkbox"> Rester connecté
+      </form>
+    </section>
+    <br>
+
+    <!-- Footer -->
+    <footer>
+      <hr>
+      &copy; ISEN Yncréa Ouest - A3
+      <br>
+      <a href="https://www.isen.fr/" target="_blank">ISEN Yncréa Ouest</a>
+    </footer>
+  </body>
+</html>
